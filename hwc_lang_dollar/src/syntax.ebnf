@@ -1,0 +1,11 @@
+file = [ws], { component, [ws] } ;
+component = inline_text | inline_math | multiline_math | "//" ;
+inline_text = "\"", literal, "\"" ;
+inline_math = "$", literal, "$" ;
+multiline_math = "$$", literal, "$$" ;
+literal = { literal_token } ;
+literal_token = "//" | word | escaped_token | ws_token ;
+escaped_token = "\\", ("\"" | "$" | "\\") ;
+ws = ws_token, { ws_token } ;
+ws_token = "\s" | "\t" | "\n" ;
+word = ? all nonspecial characters ? ;

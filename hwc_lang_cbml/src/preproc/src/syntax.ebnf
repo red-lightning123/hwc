@@ -1,0 +1,8 @@
+file = { minifile } ;
+minifile = minifile_name, minifile_content ;
+minifile_name = "##", text, "##" ;
+minifile_content = [text], { include_cluster, text }, [include_cluster] ;
+include_cluster = { include } ;
+include = ">##", text, "##" ;
+text = { text_token } ;
+text_token = ? all nonspecial characters ? ;

@@ -1,0 +1,200 @@
+{
+	"is": {
+		"equitri": "\\text{ משולש שווה צלעות} $0",
+		"square": "\\text{ ריבוע} $0",
+		"rect": "\\text{ מלבן} $0",
+		"rhombus": "\\text{ מעוין} $0",
+		"plogram": "\\text{ מקבילית} $0",
+		"trap": "\\text{ טרפז} $0",
+		"isotrap": "\\text{ טרפז שווה-שוקיים} $0",
+		"height": {
+			"1": "{\\triangle $1} \\text{ גובה ב} $0"
+		},
+		"intersegbi": {
+			"1": "{\\triangle $1} \\text{ נקודת מפגש התיכונים של } $0"
+		},
+		"midsegtri": {
+			"1": "{\\triangle $1} \\text{ קטע אמצעים ב} $0"
+		},
+		"midsegtrap": {
+			"1": "$1 \\text{ קטע אמצעים בטרפז } $0"
+		},
+		"diam": {
+			"0": "\\text{ קוטר במעגל} $0",
+			"1": "$1 \\text{ קוטר במעגל } $0"
+		},
+		"blockedquad": {
+			"0": "\\text{ ניתן לחסימה במעגל} $0",
+			"1": "$1\\text{ חסום על ידי מעגל } $0"
+		},
+		"tan": {
+			"1": "$1 \\text{ משיק למעגל } $0",
+			"2": "$2 \\text{ בנקודה } $1 \\text{ משיק למעגל } $0"
+		},
+		"centerseg": {
+			"2": "$2 \\text{ למעגל } $1 \\text{ קטע מרכזים בין מעגל } $0"
+		},
+		"kite": "\\text{ דלתון} $0",
+		"center": {
+		    "0": "\\text{ מרכז המעגל } $0",
+			"1": "$1 \\text{ מרכז מעגל } $0"
+		},
+		"circ": {
+			"0": "\\text{ מעגל} $0",
+			"1": "$1 \\text{ מעגל העובר בנקודות } $0"
+		},
+		"blockingtri": {
+			"1": "$1 \\text{ חוסם את מעגל } $0"
+		},
+		"notblockedquad": "\\text{ לא ניתן לחסימה במעגל} $0",
+		"blockingquad": {
+		    "0": "\\text{ חוסם מעגל} $0",
+			"1": "$1 \\text{ חוסם את מעגל } $0"
+		},
+		"interangbi": {
+			"1": "{\\triangle $1} \\text{ נקודת מפגש חוצי הזווית של } $0"
+		}
+	},
+	"expls": {
+		"given": "נתון",
+		"equitri angs eq 60": "הזוויות במשולש שווה-צלעות שוות ל60 מעלות",
+		"equitri has eq sides": "למשולש שווה-צלעות יש צלעות שוות",
+		"sas": "חפיפה צ. ז. צ.",
+		"cong tris have eq match sides": "צלעות מתאימות בין משולשים חופפים שוות זו לזו",
+		"cong tris have eq match angs": "זוויות מתאימות בין משולשים חופפים שוות זו לזו",
+		"cong tris have eq areas": "שטחים של משולשים חופפים שווים זה לזה",
+		"tales0": "משפט תאלס",
+		"angbipropinv": "המשפט ההפוך למשפט חוצה זווית",
+		"isotriunif": "במשולש שווה-שוקיים, חוצה זווית הראש, התיכון לבסיס, והגובה לבסיס מתלכדים",
+		"rect angs eq 90": "הזוויות במלבן שוות ל90 מעלות",
+		"tri angs sum to 180": "סכום הזוויות במשולש שווה ל180 מעלות",
+		"adj angs sum to 180": "סכום זוויות צמודות שווה ל180 מעלות",
+		"simaa": "דמיון ז. ז.",
+		"restated": "טענה קודמת",
+		"calc": "חישוב",
+		"intersegbiprop": "נקודת חיתוך התיכונים מחלקת כל תיכון ביחס 2:1",
+		"simtriprop": "היחס בין צלעות מתאימות בין משולשים דומים שווה ליחס הדמיון",
+		"pythagoras": "משפט פיתגורס",
+		"plogram has eq op sides": "צלעות נגדיות במקבילית שוות זו לזו",
+		"tales1": "משפט תאלס (הרחבה 1)",
+		"helpcons": "בניית עזר",
+		"triarea": "שטח משולש שווה למחצית מכפלת צלע בגובה שלה",
+		"angbiprop": "משפט חוצה זווית",
+		"square angs eq 90": "הזוויות בריבוע שוות ל90 מעלות",
+		"square has eq sides": "הצלעות בריבוע שוות זו לזו",
+		"square has par op sides": "צלעות נגדיות בריבוע מקבילות זו לזו",
+		"asa": "חפיפה ז. צ. ז.",
+		"lines with oside angs sum to 180 are par": "שני ישרים שדרכם עובר ישר שלישי היוצר איתם זוויות חד-צדדיות שסכומן 180 מעלות מקבילים אחד לשני",
+		"quad with one pair of par op sides is trap": "מרובע בו זוג צלעות נגדיות שמקבילות זו לזו הוא טרפז",
+		"traparea": "שטח טרפז שווה למכפלת ממוצע הבסיסים בגובה ביניהם",
+		"quad with half diags is plogram": "מרובע בו האלכסונים חוצים זה את זה הוא מקבילית",
+		"tri ineq": "אי-שוויון המשולש",
+		"plogram has half diags": "אלכסוני המקבילית חוצים זה את זה",
+		"tales2": "משפט תאלס (הרחבה 2)",
+		"plogram has par op sides": "צלעות נגדיות במקבילית מקבילות זו לזו",
+		"seg half trap sides is midsegtrap": "קטע החוצה שוקיים של טרפז הוא קטע אמצעים בטרפז זה",
+		"midsegtrap par trap bases": "קטע אמצעים בטרפז מקביל לבסיסים",
+		"quad with par op sides is plogram": "מרובע בו שני זוגות של צלעות נגדיות מקבילות הוא מקבילית",
+		"rhombus has perp diags": "אלכסוני המעוין מאונכים זה לזה",
+		"plogram with one ang eq 90 is rect": "מקבילית בעלת זווית ששווה ל90 מעלות היא מלבן",
+		"tales0inv": "המשפט ההפוך למשפט תאלס",
+		"seg par tri side and half other side is midsegtri": "ישר החוצה צלע אחת במשולש ומקביל לצלע שנייה, הוא קטע אמצעים במשולש זה",
+		"midsegtriprop": "קטע אמצעים במשולש שווה למחצית הצלע השלישית",
+		"point with two segbis is intersegbi": "נקודה דרכה עוברים שני תיכונים במשולש היא נקודת מפגש התיכונים במשולש זה",
+		"quad with one pair of eq and par op sides is plogram": "מרובע בעל זוג צלעות נגדיות מקבילות ושוות הוא מקבילית",
+		"seg half tri sides is midsegtri": "קטע החוצה שתי צלעות במשולש הוא קטע אמצעים במשולש זה",
+		"midsegtri par tri side": "קטע אמצעים במשולש מקביל לצלע השלישית",
+		"midsegtri half tri sides": "קטע אמצעים במשולש חוצה את הצלעות דרכן הוא עובר",
+		"segbi half tri area": "תיכון במשולש מחלק את המשולש לשני משולשים שווי שטח",
+		"lines with eq match angs are par": "שני ישרים שדרכם עובר ישר שלישי היוצר ביניהם זוויות מתאימות שוות מקבילים אחד לשני",
+		"lines with eq switch angs are par": "שני ישרים שדרכם עובר ישר שלישי היוצר ביניהם זוויות מתחלפות שוות מקבילים אחד לשני",
+		"isotrap has eq sides": "בטרפז שווה-שוקיים השוקיים שוות זו לזו",
+		"isotrap has eq base angs": "בטרפז שווה-שוקיים זוויות הבסיס שוות זו לזו",
+		"isotrap has eq diags": "בטרפז שווה-שוקיים האלכסונים שווים זה לזה",
+		"sss": "צ. צ. צ.",
+		"par lines have eq match angs": "זוויות מתאימות בין ישרים מקבילים שוות זו לזו",
+		"tri with two eq angs is isotri": "משולש בעל שתי זוויות שוות זו לזו הוא שווה-שוקיים",
+		"par lines have oside angs sum to 180": "זוויות חד-צדדיות בין ישרים מקבילים סכומן 180 מעלות",
+		"simsas": "משפט דמיון צ. ז. צ.",
+		"par lines have eq switch angs": "זוויות מתחלפות בין ישרים מקבילים שוות זו לזו",
+		"simtrisareas": "יחס השטחים בין משולשים דומים שווה לריבוע יחס הדמיון",
+		"quad with 3 angs eq 90 is rect": "מרובע בעל שלוש זוויות ששוות ל90 מעלות הוא מלבן",
+		"rect has eq op sides": "צלעות נגדיות במלבן שוות זו לזו",
+		"rect has par op sides": "צלעות נגדיות במלבן מקבילות זו לזו",
+		"rectarea": "שטח מלבן שווה למכפלת צלע בגובה שלה",
+		"eq strs have eq arc angs": "במעגל, על מיתרים שווים נשענות זוויות היקפיות שוות",
+		"eq arc angs have eq strs": "במעגל, זוויות היקפיות שוות נשענות על מיתרים שווים",
+		"circ radii are eq": "רדיוסים במעגל שווים זה לזה",
+		"tan perp radius": "הרדיוס במעגל מאונך למשיק העובר בנקודת ההשקה",
+		"seg par trap base and half side is midsegtrap": "ישר היוצא מאמצע שוק הטרפז ומקביל לבסיס הוא קטע אמצעים בטרפז",
+		"midsegtrap eq avg trap bases": "קטע אמצעים בטרפז שווה לממוצע הבסיסים",
+		"midsegtrap half trap sides": "קטע אמצעים בטרפז חוצה את השוקיים",
+		"blockedquad has op angs sum to 180": "סכום זוויות נגדיות במרובע חסום במעגל שווה ל180 מעלות",
+		"line with arc ang eq 90 is diam": "זוויות היקפית ששווה ל90 מעלות נשענת על קוטר",
+		"isotri has eq base angs": "זוויות בסיס במשולש שווה-שוקיים שוות זו לזו",
+		"sim tris have eq match angs": "זוויות מתאימות בין משולשים דומים שוות זו לזו",
+		"diam has arc ang eq 90": "זווית היקפית הנשענת על קוטר שווה ל90 מעלות",
+		"trap with eq base angs is isotrap": "טרפז שבו זוויות לאותו בסיס השוות זו לזו הוא שווה-שוקיים",
+		"trap with eq sides is isotrap": "טרפז ששוקיו שוות זו לזו הוא טרפז שווה-שוקיים",
+		"blockingquad sides are tan to circ": "צלעות של מרובע חוסם מעגל משיקות למעגל",
+		"blockingquad has eq op sides sums": "במרובע חוסם מעגל, סכום של זוג צלעות נגדיות שווה לסכום הזוג השני",
+		"ang between tan and str": "משפט זווית בין משיק למיתר",
+		"tans from same point are eq": "משיקים למעגל היוצאים מאותה נקודה שווים זה לזה",
+		"seg between circ centers is centerseg": "קטע המחבר בין המרכזים של שני מעגלים הוא קטע מרכזים",
+		"tan point between two circs is in centerseg": "נקודת ההשקה של שני מעגלים המשיקים זה לזה, נמצאת על קטע המרכזים או על המשכו",
+		"seg from center half str is perp": "קטע ממרכז המעגל החוצה את המיתר מאונך למיתר",
+		"eq strs have eq dists from center": "במעגל, מיתרים שווים נמצאים במרחק שווה ממרכז המעגל",
+		"quad with eq adj sides is kite": "מרובע בעל שני זוגות של צלעות סמוכות שוות הוא דלתון",
+		"kite diags are perp": "אלכסוני הדלתון מאונכים זה לזה",
+		"tri with unif height and segbi is isotri": "משולש בו גובה ותיכון לצלע מתלכדים הוא שווה-שוקיים",
+		"point with eq dists from tri points is center": "נקודה הנמצאת במרחק שווה מכל קודקודי משולש היא מרכז המעגל החוסם אותו",
+		"kite main diag is segbi": "האלכסון הראשי בדלתון הוא תיכון",
+		"righttri segbi eq half hyp": "תיכון ליתר במשולש ישר זווית שווה לחצי מהיתר",
+		"quad angs sum to 360": "סכום זוויות במרובע שווה ל360 מעלות",
+		"quad with op angs sum to 180 is blockedquad": "מרובע בו זוג זוויות נגדיות שסכומן 180 מעלות הוא מרובע חסום במעגל",
+		"arc ang eq half center ang": "במעגל, זווית היקפית שווה לחצי מהזווית המרכזית הנשענת על אותו מיתר",
+		"circ has arcs sum to 360": "סכום הקשתות במעגל שווה ל360",
+		"outer ang eq half diff arcs": "במעגל, זווית חיצונית שווה למחצית הפרש שתי הקשתות הכלואות בין שוקי הזווית ובין המשכיהן",
+		"tri with two angs eq 60 is equitri": "משולש בעל שתי זוויות של 60 מעלות הוא שווה-צלעות",
+		"angs are greater than 0": "זווית חייבת להיות גדולה מ0 מעלות",
+		"angs are greater than 0 and lesser than 360": "זווית חייבת להיות גדולה מ0 מעלות וקטנה מ360 מעלות",
+		"segs are greater than 0": "צלע חייבת להיות חיובית",
+		"kite main diag is angbi": "האלכסון הראשי בדלתון הוא חוצה זווית",
+		"eq arcs have eq arc angs": "קשתות שוות מתאימות לזוויות היקפיות שוות",
+		"rect has half diags": "אלכסוני המלבן חוצים זה את זה",
+		"triareasin": "שטח משולש שווה למחצית מכפלת שתי צלעות סמוכות בסינוס הזווית שביניהן",
+		"segbis meet at intersegbi": "התיכונים במשולש נפגשים בנקודת מפגש התיכונים",
+		"helpvar": "משתנה עזר",
+		"plogram has eq op angs": "זוויות נגדיות במקבילית שוות זו לזו",
+		"diam half is circ center": "אמצע קוטר במעגל הוא מרכז המעגל",
+		"sin": {
+			"1": "\\({\\triangle $1}\\text{פונקציית sin ב}\\)"
+		},
+		"cos": {
+			"1": "\\({\\triangle $1}\\text{פונקציית cos ב}\\)"
+		},
+		"tan": {
+			"1": "\\({\\triangle $1}\\text{פונקציית tan ב}\\)"
+		},
+		"coslaw": {
+			"1": "\\({\\triangle $1}\\text{משפט הקוסינוסים ב}\\)"
+		},
+		"sinlaw": {
+			"1": "\\({\\triangle $1}\\text{משפט הסינוסים ב}\\)"
+		},
+		"tri greater ang has greater side": "במשולש, מול הצלע הגדולה יותר מונחת זווית גדולה יותר",
+		"tri greater side has greater ang": "במשולש, מול הזווית הגדולה יותר מונחת צלע גדולה יותר",
+		"mark": "סימון",
+		"blockingtri sides are tan to circ": "צלעות של משולש חוסם מעגל משיקות למעגל",
+		"blockingtri angbis meet at center": "חוצי הזווית במשולש נפגשים במרכז המעגל שהוא חוסם",
+		"tanpoint in tan": "נקודת ההשקה בין משיק למעגל נמצאת על המשיק",
+		"quad with eq op sides sums is blockingquad": "מרובע בו סכום של זוג צלעות נגדיות שווה לסכום הזוג השני הוא מרובע חוסם מעגל",
+		"blockingquad angbis meet at center": "חוצי הזווית במרובע חוסם מעגל נפגשים במרכז המעגל אותו הוא חוסם",
+		"rhombus has eq sides": "הצלעות במעוין שוות זו לזו",
+		"rhombus diags are angbi": "האלכסונים במעוין הם חוצי זווית",
+		"angbis meet at interangbi": "חוצי הזווית במשולש נפגשים בנקודת מפגש חוצי הזווית",
+		"center is blockingtri interangbi": "נקודת מפגש חוצי הזווית במשולש חוסם מעגל נמצאת במרכז המעגל אותו הוא חוסם",
+		"plogramareasin": "שטח מקבילית שווה למכפלת שתי צלעות סמוכות בסינוס הזווית שביניהן",
+		"tans from same point are angbi": "קטע המחבר את מרכז המעגל לנקודה ממנה יוצאים שני משיקים למעגל, חוצה את הזווית שבין המשיקים"
+	}
+}

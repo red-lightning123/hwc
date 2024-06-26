@@ -1,0 +1,28 @@
+geo_proof = geo_step, { "#", geo_step } ;
+geo_step = geo_expl, "=>", multiline_stmts ;
+geo_expl = expr ;
+
+multiline_stmts = stmts, { newline, stmts } ;
+newline = "//" ;
+stmts = [stmt], { stmt_rel, stmt }, [stmt_rel] ;
+stmt = rel_stmt | is_stmt ;
+rel_stmt = [expr], { expr_rel, expr }, [expr_rel] ;
+is_stmt = expr, "is", expr ;
+expr = sum ;
+sum = prod, { sum_op, prod } ;
+prod = neg, { prod_op, neg } ;
+neg = { neg_op }, exp ;
+exp = der, { exp_op, der } ;
+der = brack, { der_op } ;
+brack = (value, bracked_args) | bracked_args | value ;
+bracked_args = ("(", expr_args, ")") | ("{", expr_args, "}") ;
+expr_args = [stmts, { ",", stmts }] ;
+sum_op = "+" | "-" | "+-" | "-+" ;
+prod_op = "@" | "*" | "/" ;
+neg_op = "-" | "+-" | "-+" ;
+exp_op = "^" ;
+der_op = "'" ;
+expr_rel = "=" | "!=" | "~=" | "<" | ">" | "<=" | ">=" ;
+stmt_rel = "=>" ;
+value = value_token { value_token } ;
+value_token = ? all nonspecial characters ? ;

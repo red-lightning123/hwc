@@ -1,0 +1,5 @@
+[workspace]
+members = ["hwc_latex", "hwc_lang_cbml", "hwc_lang_dollar", "hwc_lang_equation", "hwc_lang"]
+resolver = "2"
+[profile.release]
+#incremental = true

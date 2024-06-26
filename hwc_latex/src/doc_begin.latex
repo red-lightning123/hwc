@@ -1,0 +1,30 @@
+\documentclass{article}
+
+\usepackage{polyglossia}
+\usepackage{siunitx}
+\usepackage{yhmath, amsmath, amssymb}
+\usepackage{longtable, multirow}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[geometry]{ifsym}
+
+\usepackage{array}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+\usepackage{parskip}
+\usepackage{color} % must be loaded before bidi
+
+\setdefaultlanguage{hebrew}
+\setotherlanguage{english}
+\newfontfamily\hebrewfont[Script=Hebrew]{David CLM}
+
+\usepackage{bidi}
+
+\newcommand{\argu}{טענה}
+\newcommand{\expl}{נימוק}
+
+\newcommand{\sangle}{\sphericalangle}
+\newcommand{\drarrow}{\Longrightarrow}
+
+
+\renewcommand{\arraystretch}{2.2}
